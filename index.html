@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Saventure : Interior Design, Architecture & Digital Marketing...</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+
+    <!-- Google Font -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+<body>
+
+  <!-- Header -->
+<header>
+    <div class="container">
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo">
+        </div>
+
+        <h1 class="club-name">Elite Sports Club</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#facilities">Facilities</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- ================= HERO SECTION ================= -->
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Experience Fitness, Sports & Relaxation</h2>
+            <p>Premium sports facilities with swimming, badminton and cafe.</p>
+            <a href="#facilities" class="btn">Explore Facilities</a>
+        </div>
+    </section>
+
+<!-- ================= ABOUT SECTION ================= -->
+
+<section class="about" id="about">
+
+    <div class="about-container">
+
+        <!-- Left Side Image -->
+
+        <div class="about-image">
+
+            <img src="images/about.jpg" alt="Saventure Sports Club">
+
+        </div>
+
+        <!-- Right Side -->
+
+        <div class="about-content">
+
+            <span>
+                ABOUT OUR CLUB
+            </span>
+
+            <h2>
+                A Premium Destination for
+                Sports, Fitness & Recreation
+            </h2>
+
+            <p>
+                Saventure Sports Club offers a modern environment where
+                families, professionals and sports enthusiasts can enjoy
+                world-class facilities. Whether you want to swim, play
+                badminton, train for fitness or simply relax with friends,
+                our club provides everything under one roof.
+            </p>
+
+            <div class="feature-grid">
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        🏊
+                    </div>
+
+                    <h3>Swimming Pool</h3>
+
+                    <p>
+                        Crystal-clear pool designed for leisure,
+                        training and fitness.
+                    </p>
+
+                </div>
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        🏸
+                    </div>
+
+                    <h3>Indoor Courts</h3>
+
+                    <p>
+                        Professional badminton courts with premium flooring.
+                    </p>
+
+                </div>
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        ⚽
+                    </div>
+
+                    <h3>office & Rooms</h3>
+
+                    <p>
+                    Elegant reception, guest rooms and
+                    premium member lounges.
+                    </p>
+
+                </div>
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        ☕
+
+                    </div>
+
+                    <h3>Café & Lounge</h3>
+
+                    <p>
+                        Healthy refreshments and comfortable seating.
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Facilities -->
+   <section id="facilities" class="facilities">
+
+    <h2>Our Facilities</h2>
+    <div class="card-container">
+
+        <div class="card">
+            <a href="#swimming-popup">
+                <img src="images/swimming.jpg" alt="Swimming Pool">
+            </a>
+            <h3>Swimming Pool</h3>
+        </div>
+
+        <div class="card">
+            <a href="#office-popup">
+                <img src="images/office.jpg" alt="Office & Rooms">
+            </a>
+            <h3>Office & Rooms</h3>
+        </div>
+
+        <div class="card">
+            <a href="#badminton-popup">
+                <img src="images/badminton.jpg" alt="Badminton Court">
+            </a>
+            <h3>Badminton Court</h3>
+        </div>
+
+        <div class="card">
+            <a href="#cafe-popup">
+                <img src="images/cafe.jpg" alt="Cafe">
+            </a>
+            <h3>Cafe</h3>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Swimming -->
+<div id="swimming-popup" class="popup">
+    <a href="#" class="close">&times;</a>
+
+    <a href="#cafe-popup" class="nav prev">&#10094;</a>
+
+    <img src="images/swimming.jpg" alt="Swimming Pool">
+
+    <a href="#office-popup" class="nav next">&#10095;</a>
+</div>
+
+<!-- Office -->
+<div id="office-popup" class="popup">
+    <a href="#" class="close">&times;</a>
+
+    <a href="#swimming-popup" class="nav prev">&#10094;</a>
+
+    <img src="images/office.jpg" alt="Office">
+
+    <a href="#badminton-popup" class="nav next">&#10095;</a>
+</div>
+
+<!-- Badminton -->
+<div id="badminton-popup" class="popup">
+    <a href="#" class="close">&times;</a>
+
+    <a href="#office-popup" class="nav prev">&#10094;</a>
+
+    <img src="images/badminton.jpg" alt="Badminton">
+
+    <a href="#cafe-popup" class="nav next">&#10095;</a>
+</div>
+
+<!-- Cafe -->
+<div id="cafe-popup" class="popup">
+    <a href="#" class="close">&times;</a>
+
+    <a href="#badminton-popup" class="nav prev">&#10094;</a>
+
+    <img src="images/cafe.jpg" alt="Cafe">
+
+    <a href="#swimming-popup" class="nav next">&#10095;</a>
+</div>
+
+
+
+<!--====================================
+        CONTACT SECTION
+=====================================-->
+
+<section class="contact" id="contact">
+
+    <div class="contact-container">
+
+        <!-- Left Side -->
+
+ <!-- Left Side - Google Map -->
+
+<div class="contact-map">
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31097.640647661985!2d77.01388424178278!3d13.0226084494227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bafcfe4f784ce69%3A0x2fa73cee5c96b5db!2sKunigal%2C%20Karnataka%20572130!5e0!3m2!1sen!2sin!4v1785341813061!5m2!1sen!2sin"
+        width="100%"
+        height="450"
+        style="border:0;"
+        allowfullscreen=""
+        title="location"
+        loading="lazy">
+    </iframe>
+
+</div>
+
+        <!-- Right Side -->
+
+        <div class="contact-form">
+
+            <form>
+
+                <input type="text" placeholder="Your Name" required>
+
+                <input type="email" placeholder="Email Address" required>
+
+                <input type="tel" placeholder="Phone Number" required>
+
+                <select required title="hi">
+
+                    <option>
+                        Select Facility
+                    </option>
+
+                    <option>
+                        Swimming Pool
+                    </option>
+
+                    <option>
+                        Badminton Court
+                    </option>
+
+                    <option>
+                        Playground
+                    </option>
+
+                    <option>
+                        Café
+                    </option>
+
+                </select>
+
+                <textarea rows="6" placeholder="Message">
+                </textarea>
+
+                <button type="submit">
+                    Book a Visit
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!--==================================
+            FOOTER
+===================================-->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- Company -->
+
+        <div class="footer-box">
+
+            <img src="images/logo.png" class="footer-logo" alt="Saventure Logo">
+
+            <p>
+                 Saventure Infra Tech, innovative corporate company creating luxurious, budget-friendly spaces. 
+                 Our highly skilled professionals are committed to delivering exceptional service and innovative solutions that exceed our client’s expectations. 
+                 We focus on quality, reliability, and efficiency to establish meaningful, long-term client relationships.
+            </p>
+
+        </div>
+
+        <!-- Quick Links -->
+
+        <div class="footer-box">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#facilities">Facilities</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </div>
+
+        <!-- Facilities -->
+
+        <div class="footer-box">
+
+            <h3>Markets Served</h3>
+
+            <ul>
+                <li><a href="#">Architecture Services</a></li>
+                <li><a href="#">Construction Services</a></li>
+                <li><a href="#">Interior Services</a></li>
+                <li><a href="#">Digital Marketing</a></li>
+                <li><a href="#">Financial Services</a></li>
+                <li><a href="#">Infra Services</a></li>
+                <li><a href="#">Import & Export Services</a></li>
+                <li><a href="#">Renovation Services</a></li> 
+            </ul>
+
+        </div>
+
+        <!-- Contact -->
+
+        <div class="footer-box">
+
+            <h3>Contact</h3>
+
+<p>
+    <i class="fas fa-map-marker-alt"></i>
+    <a href="https://maps.google.com/?q=744,+1st+Floor,+12th+Main+Road,+3rd+Block,+Rajajinagar,+Bengaluru,+560010"
+       target="_blank"
+       rel="noopener noreferrer">
+        #744, 1st Floor, 12th Main Road, 3rd Block, Rajajinagar, Bengaluru – 560010
+    </a>
+</p>
+
+<p>
+    <i class="fas fa-phone"></i>
+    <a href="tel:+916366611333">
+        +91 63666 11333
+    </a>
+</p>
+
+<p>
+    <i class="fas fa-envelope"></i>
+    <a href="mailto:connect@saventurebiz.com">
+        connect@saventurebiz.com
+    </a>
+</p>
+
+<p>
+    <i class="fas fa-globe"></i>
+    <a href="https://www.saventurebiz.com"
+       target="_blank"
+       rel="noopener noreferrer">
+        www.saventurebiz.com
+    </a>
+</p>
+
+            <div class="social-icons">
+                <a href="https://www.facebook.com/people/Saventure-Infra-Tech/100094907114961/"><i class="fab fa-facebook-f" title="name"></i></a>
+                <a href="https://www.instagram.com/saventureinfratechllp/"><i class="fab fa-instagram" title="name"></i></a>
+                <a href="https://www.linkedin.com/in/nandini-savandhi-25877431/"><i class="fab fa-linkedin-in" title="name"></i></a>
+                <a href="https://www.youtube.com/@SaventureBiz"><i class="fab fa-youtube" title="name"></i></a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        © 2026 Elite Sports Club |
+        Designed by Saventure Infra Tech
+
+    </div>
+
+</footer>
+
+
+</body>
+
+</html>
