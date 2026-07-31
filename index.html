@@ -272,50 +272,57 @@
 
         <!-- Right Side -->
 
-        <div class="contact-form">
+<div class="contact-form">
 
-            <form>
+    <form action="https://api.web3forms.com/submit" method="POST">
 
-                <input type="text" placeholder="Your Name" required>
+        <!-- Web3Forms Access Key -->
+        <input type="hidden" name="access_key" value="f122d8ed-d088-4474-b30b-1c1a20cd6b1c">
 
-                <input type="email" placeholder="Email Address" required>
+        <!-- Optional Subject -->
+        <input type="hidden" name="subject" value="New Sports Club Booking">
 
-                <input type="tel" placeholder="Phone Number" required>
+        <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            required
+        >
 
-                <select required title="hi">
+        <input
+            type="email"
+            name="email"
+            placeholder="Email Address"
+            required
+        >
 
-                    <option>
-                        Select Facility
-                    </option>
+        <input
+            type="tel"
+            name="phone"
+            placeholder="Phone Number"
+            required
+        >
 
-                    <option>
-                        Swimming Pool
-                    </option>
+        <select name="facility" title="facility" required>
+            <option value="">Select Facility</option>
+            <option value="Swimming Pool">Swimming Pool</option>
+            <option value="Badminton Court">Badminton Court</option>
+            <option value="Playground">Playground</option>
+            <option value="Cafe">Café</option>
+        </select>
 
-                    <option>
-                        Badminton Court
-                    </option>
+        <textarea
+            name="message"
+            rows="6"
+            placeholder="Message"
+            required
+        ></textarea>
 
-                    <option>
-                        Playground
-                    </option>
+        <button type="submit">Book a Visit</button>
 
-                    <option>
-                        Café
-                    </option>
+    </form>
 
-                </select>
-
-                <textarea rows="6" placeholder="Message">
-                </textarea>
-
-                <button type="submit">
-                    Book a Visit
-                </button>
-
-            </form>
-
-        </div>
+</div>
 
     </div>
 
