@@ -155,22 +155,19 @@ nav ul li a:hover::after {
     min-height: 82vh;
     background:
         linear-gradient(
-            rgba(0, 0, 0, 0.62),
-            rgba(0, 0, 0, 0.62)
+            rgba(0, 0, 0, 0.42),
+            rgba(0, 0, 0, 0.42)
         ),
         url("images/sports-club.jpg");
 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     text-align: center;
     color: #fff;
-
     padding: 80px 20px;
 }
 
@@ -515,15 +512,11 @@ h2 {
 
 .popup img {
     display: block;
-
     width: auto;
     max-width: 90vw;
-
     height: auto;
     max-height: 85vh;
-
     object-fit: contain;
-
     border-radius: 10px;
 }
 
@@ -533,19 +526,13 @@ h2 {
 
 .close {
     position: absolute;
-
     top: 20px;
     right: 35px;
-
     color: #fff;
-
     font-size: 48px;
     font-weight: 300;
-
     text-decoration: none;
-
     line-height: 1;
-
     transition: 0.3s ease;
 }
 
@@ -559,21 +546,13 @@ h2 {
 
 .nav {
     position: absolute;
-
     top: 50%;
-
     transform: translateY(-50%);
-
     padding: 15px;
-
     color: #fff;
-
     font-size: 55px;
-
     text-decoration: none;
-
     font-weight: 300;
-
     transition: 0.3s ease;
 }
 
@@ -607,13 +586,9 @@ h2 {
 .contact-container {
     max-width: 1400px;
     margin: auto;
-
     display: grid;
-
     grid-template-columns: 1fr 1fr;
-
     gap: 40px;
-
     align-items: stretch;
 }
 
@@ -623,25 +598,18 @@ h2 {
 
 .contact-map {
     min-height: 600px;
-
     overflow: hidden;
-
     background: #fff;
-
     border-radius: 15px;
-
     box-shadow:
         0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
 .contact-map iframe {
     display: block;
-
     width: 100%;
     height: 100%;
-
     min-height: 600px;
-
     border: 0;
 }
 
@@ -651,11 +619,8 @@ h2 {
 
 .contact-form {
     padding: 40px;
-
     background: #fff;
-
     border-radius: 15px;
-
     box-shadow:
         0 10px 30px rgba(0, 0, 0, 0.12);
 }
@@ -670,21 +635,13 @@ h2 {
 .contact-form select,
 .contact-form textarea {
     width: 100%;
-
     padding: 15px 18px;
-
     border: 1px solid #d9d9d9;
-
     border-radius: 8px;
-
     outline: none;
-
     background: #fff;
-
     color: #222;
-
     font-size: 16px;
-
     transition:
         border-color 0.3s ease,
         box-shadow 0.3s ease;
@@ -694,7 +651,6 @@ h2 {
 .contact-form select:focus,
 .contact-form textarea:focus {
     border-color: #0d2b45;
-
     box-shadow:
         0 0 8px rgba(13, 43, 69, 0.2);
 }
@@ -710,22 +666,14 @@ h2 {
 
 .contact-form button {
     width: 100%;
-
     padding: 15px;
-
     border: none;
-
     border-radius: 8px;
-
     background: #0d2b45;
-
     color: #fff;
-
     font-size: 18px;
     font-weight: 600;
-
     cursor: pointer;
-
     transition: 0.3s ease;
 }
 
@@ -742,29 +690,24 @@ h2 {
 
 .footer {
     padding: 80px 8% 0;
-
     background:
         linear-gradient(
             135deg,
             #041126,
             #0b2f6d
         );
-
     color: #fff;
 }
 
 .footer-container {
     max-width: 1700px;
     margin: auto;
-
     display: grid;
-
     grid-template-columns:
         2fr
         1fr
         1fr
         1fr;
-
     gap: 50px;
 }
 
@@ -775,31 +718,24 @@ h2 {
 .company-box {
     display: flex;
     align-items: flex-start;
-
     gap: 20px;
 }
 
 .footer-logo {
     width: 135px;
-
     height: auto;
-
     flex-shrink: 0;
 }
 
 .footer-box p {
     color: #d5dce8;
-
     font-size: 14px;
-
     line-height: 1.9;
 }
 
 .footer-box p a {
     color: #d5dce8;
-
     text-decoration: none;
-
     transition: 0.3s ease;
 }
 
@@ -813,9 +749,7 @@ h2 {
 
 .footer-box h3 {
     margin-bottom: 20px;
-
     color: #fff;
-
     font-size: 22px;
 }
 
@@ -837,15 +771,12 @@ h2 {
 
 .footer-box ul li a {
     color: #d5dce8;
-
     text-decoration: none;
-
     transition: 0.3s ease;
 }
 
 .footer-box ul li a:hover {
     color: #4fc3ff;
-
     padding-left: 6px;
 }
 
@@ -855,7 +786,6 @@ h2 {
 
 .footer-box i {
     margin-right: 8px;
-
     color: #4fc3ff;
 }
 
@@ -865,37 +795,26 @@ h2 {
 
 .social-icons {
     display: flex;
-
     gap: 12px;
-
     margin-top: 25px;
 }
 
 .social-icons a {
     width: 42px;
     height: 42px;
-
     display: flex;
-
     justify-content: center;
     align-items: center;
-
     border-radius: 50%;
-
     background: #2563eb;
-
     color: #fff;
-
     text-decoration: none;
-
     transition: 0.35s ease;
 }
 
 .social-icons a:hover {
     transform: translateY(-5px);
-
     background: #fff;
-
     color: #2563eb;
 }
 
@@ -905,16 +824,11 @@ h2 {
 
 .footer-bottom {
     margin-top: 60px;
-
     padding: 25px;
-
     border-top:
         1px solid rgba(255, 255, 255, 0.1);
-
     color: #d5dce8;
-
     text-align: center;
-
     font-size: 14px;
 }
 
@@ -930,46 +844,27 @@ h2 {
 
 .enquire-btn {
     position: fixed;
-
     left: 50%;
     bottom: 20px;
-
     transform: translateX(-50%);
-
     display: block;
-
     max-width: 90%;
-
     padding: 15px 35px;
-
     background: #00c6ff;
-
     color: #fff;
-
     border-radius: 22px;
-
     cursor: pointer;
-
     z-index: 99998;
-
     font-size: 18px;
     font-weight: 600;
-
     letter-spacing: 1px;
-
     line-height: 1.2;
-
     text-align: center;
-
     text-transform: uppercase;
-
     white-space: nowrap;
-
     overflow: hidden;
-
     box-shadow:
         0 8px 20px rgba(0, 0, 0, 0.35);
-
     transition:
         background 0.3s ease,
         box-shadow 0.3s ease,
@@ -982,15 +877,11 @@ h2 {
 
 .enquire-btn::before {
     content: "";
-
     position: absolute;
-
     top: 0;
     left: -120%;
-
     width: 60%;
     height: 100%;
-
     background:
         linear-gradient(
             120deg,
@@ -998,18 +889,14 @@ h2 {
             rgba(255, 255, 255, 0.75),
             transparent
         );
-
     transform: skewX(-25deg);
-
     animation: shine 3s infinite;
 }
 
 .enquire-btn:hover {
     background: #0099cc;
-
     box-shadow:
         0 12px 30px rgba(0, 0, 0, 0.45);
-
     transform:
         translateX(-50%)
         translateY(-3px);
@@ -1039,28 +926,18 @@ h2 {
 
 .popup-overlay {
     position: fixed;
-
     inset: 0;
-
     width: 100%;
     height: 100%;
-
     padding: 20px;
-
     display: flex;
-
     align-items: center;
     justify-content: center;
-
     background: rgba(0, 0, 0, 0.68);
-
     opacity: 0;
     visibility: hidden;
-
     overflow-y: auto;
-
     z-index: 99999;
-
     transition:
         opacity 0.4s ease,
         visibility 0.4s ease;
@@ -1083,23 +960,15 @@ h2 {
 
 .popup-box {
     position: relative;
-
     width: 650px;
     max-width: 100%;
-
     max-height: 90vh;
-
     overflow-y: auto;
-
     padding: 40px;
-
     background: #fff;
-
     border-radius: 25px;
-
     box-shadow:
         0 20px 60px rgba(0, 0, 0, 0.35);
-
     animation: popupAnimation 0.35s ease;
 }
 
@@ -1125,28 +994,18 @@ h2 {
 
 .close-btn {
     position: absolute;
-
     top: 12px;
     right: 18px;
-
     width: 40px;
     height: 40px;
-
     display: flex;
-
     align-items: center;
     justify-content: center;
-
     color: #222;
-
     font-size: 34px;
-
     line-height: 1;
-
     cursor: pointer;
-
     border-radius: 50%;
-
     transition:
         background 0.3s ease,
         color 0.3s ease;
@@ -1165,17 +1024,11 @@ h2 {
 
 .popup-box h2 {
     margin-bottom: 30px;
-
     padding: 0 20px;
-
     color: #0d2b45;
-
     font-size: clamp(26px, 4vw, 38px);
-
     font-weight: 600;
-
     line-height: 1.25;
-
     text-align: center;
 }
 
@@ -1199,28 +1052,17 @@ h2 {
 .popup-box select,
 .popup-box textarea {
     display: block;
-
     width: 100%;
-
     padding: 15px 16px;
-
     margin-bottom: 18px;
-
     border:
         1px solid #b8b8b8;
-
     border-radius: 12px;
-
     outline: none;
-
     background: #fff;
-
     color: #222;
-
     font-size: 17px;
-
     line-height: 1.4;
-
     transition:
         border-color 0.3s ease,
         box-shadow 0.3s ease;
@@ -1232,7 +1074,6 @@ h2 {
 
 .popup-box select {
     height: 55px;
-
     cursor: pointer;
 }
 
@@ -1242,7 +1083,6 @@ h2 {
 
 .popup-box textarea {
     min-height: 130px;
-
     resize: vertical;
 }
 
@@ -1256,7 +1096,6 @@ h2 {
 .popup-box textarea:focus,
 .popup-box select:focus {
     border-color: #603728;
-
     box-shadow:
         0 0 8px rgba(96, 55, 40, 0.2);
 }
@@ -1268,7 +1107,6 @@ h2 {
 .popup-box input::placeholder,
 .popup-box textarea::placeholder {
     color: #777;
-
     opacity: 1;
 }
 
@@ -1280,46 +1118,30 @@ h2 {
 
 .checkbox-area {
     display: flex;
-
     align-items: flex-start;
-
     gap: 10px;
-
     width: 100%;
-
     margin: 10px 0 25px;
 }
 
 .checkbox-area input[type="checkbox"] {
     flex: 0 0 auto;
-
     width: 18px;
     height: 18px;
-
     margin: 4px 0 0;
-
     cursor: pointer;
-
     accent-color:  #00c6ff;
 }
 
 .checkbox-area label {
     flex: 1;
-
     margin: 0;
-
     color: #555;
-
     font-size: 11px;
-
     font-weight: 400;
-
     line-height: 1.7;
-
     letter-spacing: 0.8px;
-
     text-transform: uppercase;
-
     cursor: pointer;
 }
 
@@ -1331,27 +1153,16 @@ h2 {
 
 .popup-box button[type="submit"] {
     display: block;
-
     width: auto;
-
     margin: 0 auto;
-
     padding: 15px 55px;
-
     border: none;
-
     border-radius: 12px;
-
     background: #66e1ea;
-
     color: #000;
-
     font-size: 20px;
-
     font-weight: 600;
-
     cursor: pointer;
-
     transition:
         background 0.3s ease,
         transform 0.3s ease,
@@ -1544,15 +1355,12 @@ h2 {
 
     header {
         position: sticky;
-
         padding: 10px 15px;
     }
 
     .header-container {
         display: flex;
-
         flex-direction: column;
-
         gap: 10px;
 
         /* min-height: auto; */
@@ -1568,7 +1376,6 @@ h2 {
 
     .club-name {
         font-size: 23px;
-
         white-space: normal;
     }
 
@@ -1578,9 +1385,7 @@ h2 {
 
     nav ul {
         justify-content: center;
-
         gap: 18px;
-
         flex-wrap: wrap;
     }
 
@@ -1593,13 +1398,11 @@ h2 {
 
     .hero {
         min-height: 78vh;
-
         padding: 70px 20px;
     }
 
     .hero-label {
         font-size: 13px;
-
         letter-spacing: 2px;
     }
 
@@ -1609,19 +1412,16 @@ h2 {
 
     .hero-content p {
         font-size: 16px;
-
         line-height: 1.7;
     }
 
     .hero-buttons {
         flex-direction: column;
-
         width: 100%;
     }
 
     .btn {
         width: 100%;
-
         max-width: 320px;
     }
 
@@ -1660,9 +1460,7 @@ h2 {
 
     .card {
         max-width: 500px;
-
         width: 100%;
-
         margin: auto;
     }
 
@@ -1675,20 +1473,17 @@ h2 {
 
     .popup img {
         max-width: 95vw;
-
         max-height: 80vh;
     }
 
     .close {
         top: 15px;
         right: 20px;
-
         font-size: 42px;
     }
 
     .nav {
         font-size: 40px;
-
         padding: 8px;
     }
 
@@ -1709,7 +1504,6 @@ h2 {
 
     .contact-container {
         grid-template-columns: 1fr;
-
         gap: 30px;
     }
 
@@ -1734,15 +1528,12 @@ h2 {
 
     .footer-container {
         grid-template-columns: 1fr;
-
         gap: 40px;
     }
 
     .company-box {
         flex-direction: column;
-
         align-items: center;
-
         text-align: center;
     }
 
@@ -1756,7 +1547,6 @@ h2 {
 
     .footer-box ul {
         display: inline-block;
-
         text-align: center;
     }
 
@@ -1769,24 +1559,19 @@ h2 {
 
     .enquire-btn {
         bottom: 15px;
-
         padding: 12px 22px;
-
         font-size: 14px;
     }
 
 
     /* Book Button */
 
-.book-btn {
+    .book-btn {
         left: 0;
-        top: 50%;
-
+        top: 28%;
         width: 38px;
         min-height: 180px;
-
         transform: translateY(-50%);
-
         border-radius: 0 7px 7px 0;
     }
 
@@ -1805,9 +1590,7 @@ h2 {
     .whatsapp {
         width: 55px;
         height: 55px;
-
         right: 15px;
-
         bottom: 72px;
     }
 
@@ -1820,17 +1603,13 @@ h2 {
 
     .popup-box {
         width: 100%;
-
         max-height: 90vh;
-
         padding: 30px 20px;
-
         border-radius: 20px;
     }
 
     .popup-box h2 {
         padding: 0 15px;
-
         font-size: 27px;
     }
 
@@ -1844,9 +1623,7 @@ h2 {
 
     .popup-box button[type="submit"] {
         width: 100%;
-
         padding: 14px 20px;
-
         font-size: 18px;
     }
 
@@ -1898,15 +1675,12 @@ h2 {
 
     .footer-bottom {
         padding: 20px 10px;
-
         font-size: 12px;
     }
 
     .enquire-btn {
         max-width: 75%;
-
         padding: 11px 16px;
-
         font-size: 12px;
     }
 
@@ -1927,9 +1701,7 @@ h2 {
     .whatsapp {
         width: 50px;
         height: 50px;
-
         right: 12px;
-
         bottom: 65px;
     }
 
